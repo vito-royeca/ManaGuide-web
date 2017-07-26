@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -6,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Mana Guide</title>
-        <meta name="description" content="A mobile app of Magic: The Gathering cards. Search Magic MTG cards, View Pricing of Magic MTG cards, and more, at ManaGuideApp.com" />
-        <meta name="keywords" content="Magic Gathering MTG News Forums cards game tcg pricing mobile app ios android" />
+        <meta name="description" content="An upcoming mobile database app for Magic: The Gathering. Search Magic MTG cards, View Pricing of Magic MTG cards, and more, at ManaGuideApp.com" />
+        <meta name="keywords" content="Magic Gathering MTG cards game tcg pricing mobile app ios android" />
 
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
         <!-- font awesome -->
@@ -94,6 +95,7 @@
             </div> <!-- end of navbar -->
         </header>
 
+        <span itemscope itemtype="http://schema.org/SoftwareApplication">
         <section id="home">
             <div id="bgimage" class="header-image">
                 <div class="container">
@@ -101,13 +103,13 @@
 
                         <div class="col-sm-5 col-xs-12">
                             <div class="iphone center-content wow fadeInLeft" data-wow-duration="1s">
-                                <img src="images/iphone.png" alt="" />
+                                <img itemprop="screenshot" src="images/iphone.png" alt="" />
                             </div>
                         </div>
 
                         <div class="col-sm-7 col-xs-12 heading-text">
                             <div class="single_home_content wow zoomIn" data-wow-duration="1s">
-								<h1>Introducing Mana Guide </h1>
+								<h1>Introducing <span itemprop="name">Mana Guide</span></h1>
                                 <p class="bannerDescription">Mana Guide is an upcoming mobile database app for Magic: The Gathering.</p>
                                 <img src="images/comingsoon.png" alt="" />
 								<!--<div class="button">
@@ -125,7 +127,7 @@
                 </div>
 
             </div>
-
+            <meta itemprop="operatingSystem" content="ios android">
         </section>
 
 
@@ -139,7 +141,7 @@
                             <div class="single_works_text wow fadeInLeft" data-wow-duration=".5s">
                                 <i class="fa fa-database"></i>
                                 <h3>All Sets</h3>
-                                <p>Contains all Sets from Alpha to the latest set.</p>
+                                <p itemprop="applicationCategory">Contains all Sets from Alpha to the latest set.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -749,12 +751,13 @@
                             <br/><br/>
                             This website and related apps contain data that is Copyright © Wizards of the Coast - All Rights Reserved<br/><br/>
                             This website is not affiliated with Wizards of the Coast in any way.<br/><br/><br/>
-                            Mana Guide is maintained by: <a href="http://jovitoroyeca.com">Jovito Royeca</a></p>
+                            Mana Guide is maintained by: <a href="http://jovitoroyeca.com"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jovito Royeca</span></span></a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        </span>
 
 
 
