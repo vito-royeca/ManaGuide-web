@@ -1,6 +1,15 @@
 {
   "rules": {
-    ".read": "auth != null",
-    ".write": "auth != null"
+    ".read": true,
+    ".write": true,
+    "cards":{
+      ".indexOn": ["Views", "Rating"],
+      "Views": {
+      	".indexOn": ".value"
+    	},
+      "Rating": {
+      	".indexOn": ".value"
+    	}  
+    }  
   }
 }
