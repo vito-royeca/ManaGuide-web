@@ -23,6 +23,6 @@ xcuserdata/
 *.xcscmblueprint
 .DS_Store
 tmp
-
+.idea
 
 
